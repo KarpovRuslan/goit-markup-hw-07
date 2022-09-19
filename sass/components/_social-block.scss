@@ -11,7 +11,7 @@
         height: 44px;
         border-radius: 50%;
         background-color: var(--main-bkgrd-color);
-        fill: var(--bkgrd-link-color);
+        fill: var(--main-bkgrd-color);
     
         transition: background-color var(--timing) var(--transition-func),
             fill var(--timing) var(--transition-func);

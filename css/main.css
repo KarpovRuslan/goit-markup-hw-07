@@ -349,7 +349,7 @@ img {
   height: 44px;
   border-radius: 50%;
   background-color: var(--main-bkgrd-color);
-  fill: var(--bkgrd-link-color);
+  fill: var(--main-bkgrd-color);
   transition: background-color var(--timing) var(--transition-func), fill var(--timing) var(--transition-func);
 }
 .social-block__link-footer {
@@ -474,7 +474,6 @@ img {
 .clients__block {
   width: 170px;
   height: 92px;
-  border-radius: 4px;
 }
 .clients__block:not(:last-child) {
   margin-right: 30px;
@@ -485,6 +484,7 @@ img {
   align-items: center;
   height: 100%;
   fill: var(--bkgrd-link-color);
+  border-radius: 4px;
   border: 1px solid #afb1b8;
   transition: fill var(--timing) var(--transition-func), border-color var(--timing) var(--transition-func);
 }
