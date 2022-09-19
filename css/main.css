@@ -349,7 +349,7 @@ img {
   height: 44px;
   border-radius: 50%;
   background-color: var(--main-bkgrd-color);
-  fill: var(--main-bkgrd-color);
+  fill: var(--bkgrd-link-color);
   transition: background-color var(--timing) var(--transition-func), fill var(--timing) var(--transition-func);
 }
 .social-block__link-footer {
@@ -357,6 +357,10 @@ img {
 }
 .social-block__link:hover, .social-block__link:focus {
   background-color: var(--logo-color);
+  fill: var(--main-bkgrd-color);
+}
+
+.connect .social-block__icon {
   fill: var(--main-bkgrd-color);
 }
 
